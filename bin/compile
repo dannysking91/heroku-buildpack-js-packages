@@ -5,4 +5,5 @@ BUILD_DIR=$1
 
 ls -la "$BUILD_DIR"
 ls -la "$BUILD_DIR/js-packages/"
-cp -rf "$BUILD_DIR/js-packages/" "/tmp/js-packages"
+cp -rf "$BUILD_DIR/js-packages/" "/js-packages"
+ls -la /
