@@ -3,4 +3,5 @@
 BUILD_DIR=$1
 
 cp -rf "$BUILD_DIR/js-packages/" "$BUILD_DIR/web/js-packages/"
+cp -rf "$BUILD_DIR/js-packages/" "/tmp/js-packages/"
 ls -la "$BUILD_DIR/web/"
