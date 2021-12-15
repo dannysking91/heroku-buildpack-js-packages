@@ -2,11 +2,5 @@
 
 BUILD_DIR=$1
 
-
-ls -la "$BUILD_DIR"
-ls -la "$BUILD_DIR/js-packages/"
-cp -rf "$BUILD_DIR/js-packages/" "/tmp/js-packages"
-cp -rf "$BUILD_DIR/js-packages/" "/app/js-packages"
-ls -la /
-ls -la /tmp/
-ls -la /app/
+cp -rf "$BUILD_DIR/js-packages/" "$BUILD_DIR/web/js-packages/"
+ls -la "$BUILD_DIR/web/"
